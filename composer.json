@@ -1,0 +1,20 @@
+{
+    "name": "mung9thang12/repository",
+    "description": "laravel 8 repository",
+    "type": "library",
+    "authors": [
+        {
+            "name": "mung9thang12",
+            "email": "mung9thang12@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "TeamX\\Repository":"src/"
+        }
+    }
+}

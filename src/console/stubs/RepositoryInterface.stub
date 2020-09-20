@@ -1,0 +1,9 @@
+<?php
+namespace {{ namespace }};
+
+use TeamX\Repository\BaseRepositoryInterface;
+
+interface {{ class }} extends BaseRepositoryInterface
+{
+    
+}
