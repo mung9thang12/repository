@@ -1,5 +1,5 @@
 <?php
-namespace TeamX\Repository;
+namespace Mung9thang12\Repository;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,9 +13,9 @@ class RepositoryServiceProvider extends ServiceProvider
     }
 	function boot(){
         $this->commands([
-            \TeamX\Repository\Console\MakeRepository::class,
-            \TeamX\Repository\Console\MakeRepositoryEloquent::class,
-            \TeamX\Repository\Console\MakeRepositoryInterface::class,
+            \Mung9thang12\Repository\Console\MakeRepository::class,
+            \Mung9thang12\Repository\Console\MakeRepositoryEloquent::class,
+            \Mung9thang12\Repository\Console\MakeRepositoryInterface::class,
         ]);
         foreach(glob(app_path('Repositories/*')) as $file){
             foreach(glob($file.'/*.php') as $file){

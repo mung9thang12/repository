@@ -1,5 +1,5 @@
 <?php
-namespace TeamX\Repository;
+namespace Mung9thang12\Repository;
 
 abstract class BaseRepository implements BaseRepositoryInterface
 {

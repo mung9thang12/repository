@@ -1,6 +1,6 @@
 <?php
 
-namespace TeamX\Repository\Console;
+namespace Mung9thang12\Repository\Console;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
