@@ -1,0 +1,13 @@
+<?php
+namespace {{namespace}};
+
+use TeamX\Repository\BaseRepository;
+use {{namespaceinterface}};
+
+class {{class}} extends BaseRepository implements {{interface}}
+{
+    protected function getModel()
+    {
+        //return \App\Models\{{model}}::class;
+    }
+}
